@@ -4,6 +4,8 @@
     "module": "UMD",
     "outDir": "./dist",
     "rootDir": "./",
+    "watch": true,
+    "removeComments": true,
     "strict": false,
     "allowJs": true,
     "checkJs": false,
