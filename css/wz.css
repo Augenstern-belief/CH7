@@ -1,0 +1,117 @@
+.btn-color{
+	color: #fff;
+	background-color: #ab2a84;
+	border-color:#ab2a84 ;
+}
+.btn-color:hover{
+	color: #fff;
+	background-color:#ab2a84 ;
+	border-color:#ab2a84 ;
+}
+.btn-color:focus,.btn-color:focus{
+	color: #fff;
+	background-color:#ab2a84 ;
+	border-color:#ab2a84 ;
+	box-shadow: 0 0 0 0.2rem rgba(171,42,132,0.5);
+}
+.btn-color:disabled,.btn-color:disabled{
+	color: #fff;
+	background-color:#ab2a84 ;
+	border-color:#ab2a84 ;
+}
+.btn-color:not(:disabled):not(.disabled):active,.btn-color:not(:disabled):not(.disabled):active,
+.show>.btn-color.dropdown-toggle{
+	color: #fff;
+	background-color:#ab2a84 ;
+	border-color:#ab2a84 ;
+}
+.btn-color:not(:disabled):not(.disabled):active:focus,.btn-color:not(:disabled):not(.disabled):active:focus,
+.show>.btn-color.dropdown-toggle:focus{
+	box-shadow: 0 0 0 0.2rem rgba(171,42,132,0.5);
+}
+.card{
+	border: none;
+}
+.card h5{
+	line-height: 3rem;
+}
+.card h5 a{
+	color: #343A40;
+	font-size: 14px;
+}
+.card h5 a{
+	color: #AB2A84;
+	font-family: garamond;
+}
+.card hr{
+	border: 1px solid #AB2A84;
+	margin: 0px;
+}
+.card.card-body{
+	padding: 0.5rem 0px;
+}
+a.list-group-item{
+	color: #343A40;
+	border: 0;
+	padding-left: 0px;
+	white-space: nowrap;
+	word-break: keep-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+a.list-group-item:hover{
+	text-decoration: none;
+}
+.kstd img{
+	transform: translateY(0rem);
+	transition: all 1s ease-in-out;
+}
+.kstd img:hover{
+	cursor: pointer;
+	transform: translateY(-0.5rem);
+}
+.kstd p{
+	text-align: center;
+}
+.ztwz p{
+	text-align: center;
+}
+.ztwz a img{
+	transition: all 0.5s;
+	width: 100%;
+}
+.ztwz a:hover img{
+	transform: scale(1.1);
+}
+.footer.divLink{
+	padding: 30px 0px;
+	background-color: #f6f6f6;
+}
+.footer.row a{
+	color: #333;
+	font: 15px"microsoft yahei";
+}
+.centerLink ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.centerLink ul li{
+	line-height: 2.5;
+}
+.rightLink{
+	padding: 20px 0px 0px 0px;
+}
+.rightLink p{
+	text-align: center;
+}
+.divCopyright{
+	background-color: #AB2A84;
+	padding: 20px 0px;
+	text-align: center;
+}
+.divCopyright center{
+	color: #333;
+	font: 15px"microsoft yahei";
+}

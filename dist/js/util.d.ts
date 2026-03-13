@@ -1,0 +1,11 @@
+export let TRANSITION_END: string;
+export function getUID(prefix: any): any;
+export function getSelectorFromElement(element: any): any;
+export function getTransitionDurationFromElement(element: any): number;
+export function reflow(element: any): any;
+export function triggerTransitionEnd(element: any): void;
+export function supportsTransitionEnd(): boolean;
+export function isElement(obj: any): any;
+export function typeCheckConfig(componentName: any, config: any, configTypes: any): void;
+export function findShadowRoot(element: any): any;
+export function jQueryDetection(): void;
