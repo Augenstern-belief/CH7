@@ -1,8 +1,9 @@
 import $ from 'jquery';
-import Alert from './alert';
-const alertInstance = new Alert(document.querySelector('.alert')!);
+import './js/alert.js';
+($('.alert') as any).alert('close');
+declare global {
+  interface JQuery {
+    alert(config: 'close'): JQuery;
+  }
+}
 $('.alert').alert('close');
-$(document).on('click', '[data-dismiss="alert"]', function (e) {
-  e.preventDefault();
-  alertInstance.close(this);
-});
